@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans Tifinagh", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.concatenate-input-form, .digit-input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 540px;
+  width: 100%;
+}
+
+.form-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 150px;
+}/*# sourceMappingURL=style.css.map */
